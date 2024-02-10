@@ -1,8 +1,33 @@
-# React + Vite
+# Quoteverse
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Quotverse website is designed to offer users a visually engaging platform for discovering, sharing, and engaging with famous quotes from the quotable.io API.
 
-Currently, two official plugins are available:
+## Deploy Link
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Visit Quoteverse: [https://quoteverse-raky.netlify.app/](https://quoteverse-raky.netlify.app/)
+
+## Getting Started
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/quoteverse.git
+2. **choose project root folder :**
+
+   ```bash
+   cd quoteverse
+3. **Install Dependencies :**
+
+   ```bash
+   npm install
+4. **Start the development server :**
+
+   ```bash
+   npm run dev
+### Usage
+
+Explore a curated collection of quotes on the Quoteverse website.Click on different routes to discover various features such as trending quotes, your liked quotes, and.Closing the Project To stop the development server, press Ctrl + C in the terminal.
+
+Feel free to contribute, make improvements, or report issues by creating pull requests or filing issues on the GitHub repository.
+
+Happy quoting!
