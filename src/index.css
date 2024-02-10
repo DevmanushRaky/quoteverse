@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Urbanist, system-ui, Avenir, Helvetica, Ariak, sans-serif;
+  color-scheme: light dark;
+}
+
+:root {
+  --bg-color: #000000;
+  --text-color: #ffffff;
+  --helper-color: #d9d4d48a;
+  --like-color: #ea2626;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+p,
+h6 {
+  color: var(--text-color);
+}
+
+span {
+  color: var(--helper-color);
+  font-size: 13px;
+}
+
+/*  Navbar  */
+
+.navbar{
+  border-bottom: 1px solid grey;
+}
+.nav-link {
+  color: var(--text-color) !important;
+}
+.nav-icon {
+  width: 25px;
+  height: 25px;
+  margin: 2px;
+}
+
+.nav-brand.active {
+  color: #f5cdcdfe !important;
+  cursor: pointer;
+}
+
+/* Additional styling for visited state */
+.nav-brand:visited {
+  color: var(--text-color);
+}
+
+
+.nav-link1.active {
+  background-color: var(--helper-color);
+  color: var(--text-color);
+  cursor: pointer;
+  border-radius: 21px;
+}
+
+/* Additional styling for visited state */
+.nav-link1:visited {
+  background-color: var(--helper-color);
+  color: var(--text-color);
+  border-radius: 21px;
+}
+
+/* User details  */
+.user-details {
+  margin: 2rem;
+
+  & .profile {
+    width: 65px;
+    height: 65px;
+    background-color: var(--helper-color);
+    color: var(--text-color);
+    padding: 0.2rem;
+    border-radius: 35px;
+    margin-bottom: 0.4rem;
+  }
+  & h4,
+  p {
+    color: var(--text-color);
+  }
+  & .bio {
+    font-size: 12px;
+  }
+}
+
+/* Quotes */
+
+.quote-border {
+  border: 1px solid rgba(128, 128, 128, 0.453);
+  padding: 0.6rem;
+}
+.quote-container {
+
+  & .author-profile {
+    width: 45px;
+    height: 45px;
+    background-color: var(--helper-color);
+    color: var(--text-color);
+    padding: 0.2rem;
+    border-radius: 21px;
+  }
+  & .quote {
+    & h6 {
+      font-size: 1.2rem;
+    }
+  }
+  & .icons-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.5rem;
+    padding-left: 0;
+
+    & .icons {
+      width: 35px;
+      height: 35px;
+      color: var(--text-color);
+      cursor: pointer;
+      padding-right: 0.8rem;
+    }
+  }
+
+  & .liked {
+    color: red !important; /* or any color you prefer */
+  }
+}
+
+/*  Trending topics  */
+.trending-topics {
+  margin-top: 2rem;
+  & h4 {
+    color: var(--text-color);
+  }
+  & .setting-icon {
+    width: 30px;
+    height: 30px;
+    color: var(--helper-color);
+  }
+  & .show-line {
+    color: rgb(58, 58, 235);
+    font-weight: 200px;
+  }
+
+  & .category-name {
+    color: var(--helper-color);
+    margin-bottom: 0.2rem;
+  }
+  & .tag-name {
+    color: var(--text-color);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  & .quotes-no {
+    color: var(--helper-color);
+  }
+}
